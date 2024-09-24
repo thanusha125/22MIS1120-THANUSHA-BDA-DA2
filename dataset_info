@@ -1,0 +1,35 @@
+Dataset: Air Quality UCI Dataset
+
+Source: The Air Quality UCI Dataset is publicly available at the UCI Machine Learning Repository.
+
+Link to Dataset: [Air Quality UCI Dataset](https://archive.ics.uci.edu/ml/datasets/air+quality)
+
+Description:
+The dataset consists of hourly averaged responses from an array of chemical sensors embedded in an Air Quality Monitoring station located in a heavily polluted urban area. These sensors measure concentrations of various pollutants, and the dataset contains both the chemical response of the sensors and actual pollutant concentration levels.
+
+Dataset Features:
+-Date/Time: Date (YYYY/MM/DD) and Time (HH.MM.SS) for each observation.
+- CO(GT): Concentration of carbon monoxide in mg/m^3 (GT stands for Ground Truth).
+- PT08.S1: Sensor value (tin oxide) for CO detection.
+- NMHC(GT): Concentration of non-methane hydrocarbons in micrograms per cubic meter.
+- C6H6(GT): Concentration of Benzene in micrograms per cubic meter.
+- PT08.S2: Sensor value (titania) for NMHC detection.
+- NOx(GT): Concentration of Nitrogen oxides in parts per billion.
+- PT08.S3: Sensor value (tungsten oxide) for NOx detection.
+- NO2(GT): Concentration of Nitrogen dioxide in parts per billion.
+- PT08.S4: Sensor value (tungsten oxide) for NO2 detection.
+- PT08.S5: Sensor value (indium oxide) for ozone (O3) detection.
+- T: Ambient temperature in Celsius.
+- RH: Relative humidity (%).
+- AH: Absolute humidity.
+
+ Usage:
+The dataset can be used to perform clustering based on air pollution levels, identify time periods or regions with similar pollution characteristics, and detect pollution trends over time. For this project, Self-Organizing Maps (SOM) are employed to group periods with comparable air quality profiles, which provides insights into pollution patterns in the observed regions.
+
+Preprocessing Steps:
+- Handle missing data.
+- Normalize feature values to ensure consistency in SOM training.
+
+Dataset Size:  
+- 2000 instances.
+- 15 attributes (features).
