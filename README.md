@@ -21,4 +21,7 @@ The dataset used is the Air Quality UCI dataset, which contains hourly data abou
 ### Hardware
 - Any machine capable of running Python (minimum 4GB RAM recommended).
 
-
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/thanusha125/22MIS1120-THANUSHA-BDA-DA2.git
